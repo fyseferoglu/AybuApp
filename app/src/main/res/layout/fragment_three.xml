@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context="com.fyusuf.aybuapp.ThreeFragment">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:divider="@color/colorPrimary"
+        android:dividerHeight="4px"
+        android:layout_weight="1"
+        android:id="@+id/listView2" />
+
+</LinearLayout>
